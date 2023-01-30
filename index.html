@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Slider Images</title>
+    <link rel="stylesheet" href="styles.css">   
+    <script src="https://kit.fontawesome.com/3e42e6333c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <section id="slider">
+        <input class="dot" value="1" type="radio" name="slider" id="s1" checked>
+        <input class="dot" value="2" type="radio" name="slider" id="s2">
+        <input class="dot" value="3" type="radio" name="slider" id="s3">
+        <input class="dot" value="4" type="radio" name="slider" id="s4">
+        <input class="dot" value="5" type="radio" name="slider" id="s5">    
+
+        <label for="s1" id="slide1"><img src="/img/lenstravelier-OpGMKIVPHro-unsplash.jpg"></label>
+        <label for="s2" id="slide2"><img src="/img/manja-vitolic-gKXKBY-C-Dk-unsplash.jpg"></label>
+        <label for="s3" id="slide3"><img src="/img/marliese-streefland-2l0CWTpcChI-unsplash.jpg"></label>
+        <label for="s4" id="slide4"><img src="/img/zdenek-machacek-cfIcTiopin4-unsplash.jpg"></label>
+        <label for="s5" id="slide5"><img src="/img/amanda-panda-hKyQTIEjF2Q-unsplash.jpg"></label>
+
+        <div class="pre">
+            <i class="fa-solid fa-arrow-left white"></i>
+        </div>
+        <div class="next" onclick="myFunction()">
+            <i class="fa-solid fa-arrow-right white"></i>
+        </div>
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
